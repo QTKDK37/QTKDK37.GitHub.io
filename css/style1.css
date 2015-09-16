@@ -99,6 +99,21 @@ p.sidebar-footer, {
   z-index: 50;
 }
 
+/* Search */
+input.search {
+	border: none;
+	border-bottom: solid 1px #3F51B5;
+	width: 100px;
+}
+
+i.fa-search {
+	color: #3F51B5;
+}
+
+/* Focus */
+input:focus {
+    outline: none;
+}
 /* Grid container */
 .grid {
   position: relative;
@@ -165,7 +180,7 @@ p.sidebar-footer, {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #81c483;
+  background-color: #3F51B5;
   font-size: 0px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -181,7 +196,7 @@ p.sidebar-footer, {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #81c483;
+  background: #3F51B5;
   content: '';
 }
 
