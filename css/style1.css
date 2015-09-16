@@ -486,6 +486,9 @@ p.sidebar-footer, {
   cursor: default;
 }
 
+.page-meta i.fa-heart{
+	color: red;
+}
 /* Placeholder element (dummy that gets animated when we click on an item) */
 .placeholder {
   pointer-events: none;
