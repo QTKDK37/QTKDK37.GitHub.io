@@ -50,25 +50,27 @@
 				<h1><span>Ho Chi Minh city </span><span>University of Law</span></h1>
 				<h3>35-QTKDK37</h3>
 				<p>
-					<a href="ajax/foreword.html" target="_blank">FOREWORD</a>
+					<a href="foreword.html" class="ajax-popup-link">FOREWORD</a>
 				</p>
 				<p>
-					<a href="ajax/stories.html" target="_blank">STORIES</a>
+					<a href="stories/stories.html" class="ajax-popup-link">STORIES</a>
 				</p>
 				<p>
-					<a href="ajax/about.html" target="_blank">ABOUT</a>
+					<a href="about.html" class="ajax-popup-link">ABOUT</a>
 				</p>
 				<p class="sidebar-footer">
 					<i class="fa fa-rocket"></i> by <a href="http://nguyentrungtin.github.io/" target="_blank">Ông Trùm</a> with <i class="fa fa-heart"></i>
 				</p>
 
 			</div>
+
 			<div id="theGrid" class="main">
+				<div class="members">
 				<section class="grid">
 					<header class="top-bar">
 						<h2 class="top-bar__headline">Members:</h2>
 						<div class="filter">
-							<input type="text" class="search" placeholder="Search"></input><i class="fa fa-search"></i>
+							<input type="text" class="search live-search-box" placeholder="Search"></input><i class="fa fa-search"></i>
 						</div>
 					</header>
 
@@ -82,7 +84,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 17/10/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Ngoc-Anh" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Ngọc Ánh</h2>
 						<div class="loader"></div>
 						<span class="category">Love &amp; Hate</span>
@@ -92,7 +94,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Bui-Thuy-Anh" class="grid__item" href="#">
 						<h2 class="title title--preview">Bùi Thúy Anh</h2>
 						<div class="loader"></div>
 						<span class="category">Nutrition</span>
@@ -102,7 +104,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Doan-Kieu-Anh" class="grid__item" href="#">
 						<h2 class="title title--preview">Đoàn Kiều Anh</h2>
 						<div class="loader"></div>
 						<span class="category">Life &amp; Death</span>
@@ -112,7 +114,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/12/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Hong-Anh" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Hồng Anh</h2>
 						<div class="loader"></div>
 						<span class="category">Nature vs. Nurture</span>
@@ -122,7 +124,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 1/1/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Phan-Ngoc-Anh" class="grid__item" href="#">
 						<h2 class="title title--preview">Phan Ngọc Anh</h2>
 						<div class="loader"></div>
 						<span class="category">Neuroscience</span>
@@ -132,7 +134,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Le-Bao-Chau" class="grid__item" href="#">
 						<h2 class="title title--preview">Lê Bảo Châu</h2>
 						<div class="loader"></div>
 						<span class="category">Food Ethics</span>
@@ -142,7 +144,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 12/1/1992</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Ong-Dieu-Chau" class="grid__item" href="#">
 						<h2 class="title title--preview">Ông Diệu Châu</h2>
 						<div class="loader"></div>
 						<span class="category">Philosophy</span>
@@ -152,7 +154,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 29/7/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Ly-Quoc-Cuong" class="grid__item" href="#">
 						<h2 class="title title--preview">Lý Quốc Cường</h2>
 						<div class="loader"></div>
 						<span class="category">Morality &amp; History</span>
@@ -162,7 +164,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 21/11/1993</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Huy-Duc" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Huy Đức</h2>
 						<div class="loader"></div>
 						<span class="category">Philosophy</span>
@@ -172,7 +174,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Thuy-Dung" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Thùy Dung</h2>
 						<div class="loader"></div>
 						<span class="category">Society</span>
@@ -182,7 +184,7 @@
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Mary-Giah" class="grid__item" href="#">
 						<h2 class="title title--preview">Mary Giah</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -192,7 +194,7 @@
 																									<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/05/1993</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Ta-Thi-Giang" class="grid__item" href="#">
 						<h2 class="title title--preview">Tạ Thị Giang</h2>
 						<div class="loader"></div>
 						<span class="category">Stories for humans</span>
@@ -202,7 +204,7 @@
 																									<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/02/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Ha" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Hà</h2>
 						<div class="loader"></div>
 						<span class="category">Love &amp; Hate</span>
@@ -212,7 +214,7 @@
 																									<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 20/4/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Le-Thi-Yen-Hang" class="grid__item" href="#">
 						<h2 class="title title--preview">Lê Thị Yến Hằng</h2>
 						<div class="loader"></div>
 						<span class="category">Nutrition</span>
@@ -222,7 +224,7 @@
 																									<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 17/04/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Thu-Hang" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Thu Hằng</h2>
 						<div class="loader"></div>
 						<span class="category">Life &amp; Death</span>
@@ -232,7 +234,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 12/09/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Ngoc-Hang" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Ngọc Hằng</h2>
 						<div class="loader"></div>
 						<span class="category">Nature vs. Nurture</span>
@@ -242,7 +244,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 01/07/1991</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Le-Thi-Thu-Hien" class="grid__item" href="#">
 						<h2 class="title title--preview">Lê Thị Thu Hiền</h2>
 						<div class="loader"></div>
 						<span class="category">Neuroscience</span>
@@ -252,7 +254,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/06/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Thu-Hien" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Thu Hiền</h2>
 						<div class="loader"></div>
 						<span class="category">Food Ethics</span>
@@ -262,7 +264,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 22/02/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Ngoc-Hong" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Ngọc Hồng</h2>
 						<div class="loader"></div>
 						<span class="category">Philosophy</span>
@@ -272,7 +274,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 30/05/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Ngoc-Hung" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Ngọc Hưng</h2>
 						<div class="loader"></div>
 						<span class="category">Morality &amp; History</span>
@@ -282,7 +284,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 05/09/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Thi-Ngoc-Huyen" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Thị Ngọc Huyền</h2>
 						<div class="loader"></div>
 						<span class="category">Philosophy</span>
@@ -292,7 +294,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 03/02/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Le-Diep-Minh-Kha" class="grid__item" href="#">
 						<h2 class="title title--preview">Lê Diệp Minh Kha</h2>
 						<div class="loader"></div>
 						<span class="category">Society</span>
@@ -302,7 +304,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 10/03/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Bui-Duy-Khanh" class="grid__item" href="#">
 						<h2 class="title title--preview">Bùi Duy Khánh</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -312,7 +314,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 29/03/1992</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Che-Quang-Khanh" class="grid__item" href="#">
 						<h2 class="title title--preview">Chế Quang Khánh</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -322,17 +324,17 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Thuy-Kieu" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Thúy Kiều</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
 						<div class="meta meta--preview">
-							<img class="meta__avatar" src="lib/images/Tran-Thuy-Kieu.jpg" alt="Tran-Thuy-Kieu.jpg">
+							<img class="meta__avatar" src="lib/images/Tran-Thuy-Kieu.jpg" alt="Tran-Thuy-Kieu">
 							<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010047</span>
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 29/03/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Ngoc-Hong-Lam" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Ngọc Hồng Lam</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -342,7 +344,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/08/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Chu-Thi-Lanh" class="grid__item" href="#">
 						<h2 class="title title--preview">Chu Thị Lành</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -352,7 +354,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 25/02/1993</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Sweet-Angel" class="grid__item" href="#">
 						<h2 class="title title--preview">Điền Thị Ngọc Linh</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -362,7 +364,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 31/05/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-My-Ly" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Mỹ Ly</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -372,7 +374,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 02/02/1993</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Thai-Kim-Ngoc" class="grid__item" href="#">
 						<h2 class="title title--preview">Thái Kim Ngọc</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -382,7 +384,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 05/02/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Pham-Ngoc-Nguyen" class="grid__item" href="#">
 						<h2 class="title title--preview">Phạm Ngọc Nguyên</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -392,7 +394,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Ta-Van-Nhat" class="grid__item" href="#">
 						<h2 class="title title--preview">Tạ Văn Nhật</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -402,7 +404,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 26/12/1992</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Bui-Ngoc-Bich-Nhi" class="grid__item" href="#">
 						<h2 class="title title--preview">Bùi Ngọc Bích Nhi</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -412,7 +414,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 19/07/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Thuy-Uyen-Nhi" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Thụy Uyển Nhi</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -422,7 +424,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 14/05/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Minh-Dinh-Nhu" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Minh Đình Như</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -432,7 +434,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 27/02/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Phan-Thi-Quynh-Nhu" class="grid__item" href="#">
 						<h2 class="title title--preview">Phan Thị Quỳnh Như</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -442,7 +444,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 14/04/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Phan-Thi-Hong-Nhung" class="grid__item" href="#">
 						<h2 class="title title--preview">Phan Thị Hồng Nhung</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -452,7 +454,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/08/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Ly-Minh-Nhut" class="grid__item" href="#">
 						<h2 class="title title--preview">Lý Minh Nhựt</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -462,7 +464,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 27/02/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Thi-Nhu-Quynh" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Thị Như Quỳnh</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -472,7 +474,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/09/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Bui-Nhat-Tan" class="grid__item" href="#">
 						<h2 class="title title--preview">Bùi Nhật Tân</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -482,7 +484,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 05/12/1992</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Thi-Hong-Tham" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Thị Hồng Thắm</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -492,7 +494,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 17/04/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Phan-Viet-Thang" class="grid__item" href="#">
 						<h2 class="title title--preview">Phan Việt Thắng</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -502,7 +504,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Thi-Kim-Thanh" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Thị Kim Thanh</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -512,7 +514,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Duong-Thi-Thao" class="grid__item" href="#">
 						<h2 class="title title--preview">Dương Thị Thảo</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -522,7 +524,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/01/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Phuong-Thao" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Phương Thảo</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -532,7 +534,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 20/03/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Thanh-Thao99" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Thanh Thảo</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -542,7 +544,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 14/09/1992</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Thanh-Thao100" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Thanh Thảo</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -552,7 +554,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 25/01/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Bui-Quoc-Thinh" class="grid__item" href="#">
 						<h2 class="title title--preview">Bùi Quốc Thịnh</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -562,7 +564,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/10/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Vo-Thi-Hong-Thom" class="grid__item" href="#">
 						<h2 class="title title--preview">Võ Thị Hồng Thơm</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -572,7 +574,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 23/07/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Le-Huu-Thong" class="grid__item" href="#">
 						<h2 class="title title--preview">Lê Hữu Thông</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -582,7 +584,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 30/10/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Thanh-Thuan" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Thanh Thuận</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -592,7 +594,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 25/08/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Pham-Thi-Thuong" class="grid__item" href="#">
 						<h2 class="title title--preview">Phạm Thị  Thương</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -602,7 +604,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 18/11/1993</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Le-Thuy" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Lệ Thủy</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -612,7 +614,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 17/03/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Bui-Ly-Thuy-Tien" class="grid__item" href="#">
 						<h2 class="title title--preview">Bùi Lý Thuỷ Tiên</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -622,7 +624,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 09/07/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thi-Cam-Tien" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thị Cẩm Tiên</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -632,7 +634,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 12/07/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Vo-Thi-Tiet" class="grid__item" href="#">
 						<h2 class="title title--preview">Võ Thị Tiết</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -642,7 +644,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 04/06/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Dang-Thuong-Tin" class="grid__item" href="#">
 						<h2 class="title title--preview">Đặng Thương Tín</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -652,7 +654,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/01/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Ong-Trum" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Trung Tín</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -662,7 +664,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 01/06/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Ngoc-Doan-Tram" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Ngọc Đoan Trâm</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -672,7 +674,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 28/10/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Thi-Bich-Tram" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Thị Bích Trâm</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -682,7 +684,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/11/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Do-Thi-Thu-Trang" class="grid__item" href="#">
 						<h2 class="title title--preview">Đỗ Thị Thu Trang</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -692,7 +694,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 03/07/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Thanh-Thuy-Trang" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Thanh Thuỳ Trang</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -702,7 +704,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 04/08/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Pham-Le-Thuy-Trang" class="grid__item" href="#">
 						<h2 class="title title--preview">Phạm Lê Thùy Trang</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -712,7 +714,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Vo-Thi-Thuy-Trang" class="grid__item" href="#">
 						<h2 class="title title--preview">Võ Thị Thuỳ Trang</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -722,7 +724,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/02/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Minh-Tri" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Minh Trí</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -732,7 +734,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 16/12/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nham-Thi-Thuy-Trinh" class="grid__item" href="#">
 						<h2 class="title title--preview">Nhân Thị Thùy Trinh</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -742,7 +744,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Phuong-Ngoc-Trung" class="grid__item" href="#">
 						<h2 class="title title--preview">Phương Ngọc Trung</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -752,7 +754,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Hoang-Cam-Tu" class="grid__item" href="#">
 						<h2 class="title title--preview">Hoàng Cẩm Tú</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -762,7 +764,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 19/09/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Si-Tu" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Sĩ Tú</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -772,7 +774,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 27/03/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Le-Thi-Son-Tuyen" class="grid__item" href="#">
 						<h2 class="title title--preview">Lê Thị Sơn Tuyền</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -782,7 +784,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 25/03/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Tuong-Vi" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Tường Vi</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -792,7 +794,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 21/06/1194</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Tat-Vien" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Tất Viễn</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -802,7 +804,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 28/03/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Ngo-The-Vuong" class="grid__item" href="#">
 						<h2 class="title title--preview">Ngô Thế Vượng</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -812,7 +814,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 21/05/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Tran-Khanh-Xuan" class="grid__item" href="#">
 						<h2 class="title title--preview">Trần Thị Khánh Xuân</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -822,7 +824,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 18/12/1994</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Dinh-Nhat-Nam" class="grid__item" href="#">
 						<h2 class="title title--preview">Đinh Nhật Nam</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -832,7 +834,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Vu-Quynh-Nhu" class="grid__item" href="#">
 						<h2 class="title title--preview">Vũ Quỳnh Như</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -842,7 +844,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Ai-Duyen" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Ái Duyên</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -852,7 +854,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Bui-Ngoc-Thanh-Thao" class="grid__item" href="#">
 						<h2 class="title title--preview">Bùi Ngọc Thanh Thảo</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -862,7 +864,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Nguyen-Cong-Danh" class="grid__item" href="#">
 						<h2 class="title title--preview">Nguyễn Công Danh</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -872,7 +874,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Thai-Le-Thanh-Thao" class="grid__item" href="#">
 						<h2 class="title title--preview">Thái Lê Thanh Thảo</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -882,7 +884,7 @@
                                                   <span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 						</div>
 					</a>
-					<a class="grid__item" href="#">
+					<a id="Luong-Ngoc-Chau" class="grid__item" href="#">
 						<h2 class="title title--preview">Lương Ngọc Châu</h2>
 						<div class="loader"></div>
 						<span class="category">Mental Health</span>
@@ -897,23 +899,24 @@
 						<p><span><i class="fa fa-rocket"></i> by <a href="http://nguyentrungtin.github.io/">Ông Trùm</a> with <i class="fa fa-heart"></i></span></p>
 					</footer>
 				</section>
+			</div>
+
 				<section class="content">
 					<div class="scroll-wrap">
 						<article class="content__item">
 							<span class="category category--full">Love &amp; Hate</span>
-							<h2 class="title title--full">The Things we Lost in the Fire</h2>
+							<h2 class="title title--full">Võ Hoàng Vân Anh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/2.png" alt="author02">
-								<span class="meta__author">Christian Belverde</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 7 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 5 min read</span>
+								<img class="meta__avatar" src="lib/images/Vo-Hoang-Van-Anh.jpg" alt="Vo-Hoang-Van-Anh">
+								<span class="meta__author">Võ Hoàng Vân Anh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010149</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 17/10/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
 										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+											$(".stories").load("ajax/Vo-Hoang-Van-Anh.html");
 										});
 									});
 								</script>
@@ -922,19 +925,18 @@
 
 						<article class="content__item">
 							<span class="category category--full">Love &amp; Hate</span>
-							<h2 class="title title--full">The Things we Lost in the Fire</h2>
+							<h2 class="title title--full">Nguyễn Thị Ngọc Ánh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/2.png" alt="author02">
-								<span class="meta__author">Christian Belverde</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 7 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 5 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Thi-Ngoc-Anh.jpg" alt="Nguyen-Thi-Ngoc-Anh">
+								<span class="meta__author">Nguyễn Thị Ngọc Ánh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1155070010</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Ngoc-Anh").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Ngoc-Anh.html");
 										});
 									});
 								</script>
@@ -942,19 +944,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Nutrition</span>
-							<h2 class="title title--full">What Goes Around Comes Around</h2>
+							<h2 class="title title--full">Bùi Thúy Anh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/3.png" alt="author03">
-								<span class="meta__author">Carol Freeman</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Bui-Thuy-Anh">
+								<span class="meta__author">Bùi Thúy Anh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010003</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Primitive man is known to us by the stages of development through which he has passed: that is, through the inanimate monuments and implements which he has left behind for us, through our knowledge of his art, his religion and his attitude towards life, which we have received either directly or through the medium of legends, myths and fairy tales; and through the remnants of his ways of thinking that survive in our own manners and customs. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Bui-Thuy-Anh").click(function() {
+											$(".stories").load("ajax/Bui-Thuy-Anh.html");
 										});
 									});
 								</script>
@@ -962,19 +963,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Life &amp; Death</span>
-							<h2 class="title title--full">Hope for Amy Walters</h2>
+							<h2 class="title title--full">Đoàn Kiều Anh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Doan-Kieu-Anh.jpg" alt="Doan-Kieu-Anh">
+								<span class="meta__author">Đoàn Kiều Anh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010004</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/12/1994</span>
 							</div>
-							<p>In contrast to this, our discussion readily shows that the double meaning in question belonged to the word taboo from the very beginning and that it serves to designate a definite ambivalence as well as everything which has come into existence on the basis of this ambivalence. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Doan-Kieu-Anh").click(function() {
+											$(".stories").load("ajax/Doan-Kieu-Anh.html");
 										});
 									});
 								</script>
@@ -982,19 +982,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Nature vs. Nurture</span>
-							<h2 class="title title--full">My Father told me...</h2>
+							<h2 class="title title--full">Nguyễn Hồng Anh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/5.png" alt="author05">
-								<span class="meta__author">Leila Nastafi</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Hong-Anh.jpg" alt="Nguyen-Hong-Anh">
+								<span class="meta__author">Nguyễn Hồng Anh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010005</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 1/1/1994</span>
 							</div>
-							<p>Conscience is the inner perception of objections to definite wish impulses that exist in us; but the emphasis is put upon the fact that this rejection does not have to depend on anything else, that it is sure of itself. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Hong-Anh").click(function() {
+											$(".stories").load("ajax/Nguyen-Hong-Anh.html");
 										});
 									});
 								</script>
@@ -1002,19 +1001,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Neuroscience</span>
-							<h2 class="title title--full">What Happens in the Brain?</h2>
+							<h2 class="title title--full">Phan Ngọc Anh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/6.png" alt="author06">
+								<img class="meta__avatar" src="lib/images/Phan-Ngoc-Anh.jpg" alt="Phan-Ngoc-Anh">
 								<span class="meta__author">William Green</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010007</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>I am fully aware of the shortcomings in these essays. I shall not touch upon those which are characteristic of first efforts at investigation. The others, however, demand a word of explanation.</p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Phan-Ngoc-Anh").click(function() {
+											$(".stories").load("ajax/Phan-Ngoc-Anh.html");
 										});
 									});
 								</script>
@@ -1022,19 +1020,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Food Ethics</span>
-							<h2 class="title title--full">Tasty Labrador Bacon</h2>
+							<h2 class="title title--full">Lê Bảo Châu</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/7.png" alt="author07">
-								<span class="meta__author">Peter M. Schuster</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Le-Bao-Chau.jpg" alt="Le-Bao-Chau">
+								<span class="meta__author">Lê Bảo Châu</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010011</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 12/1/1992</span>
 							</div>
-							<p>Conscience is the inner perception of objections to definite wish impulses that exist in us; but the emphasis is put upon the fact that this rejection does not have to depend on anything else, that it is sure of itself. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Le-Bao-Chau").click(function() {
+											$(".stories").load("ajax/Le-Bao-Chau.html");
 										});
 									});
 								</script>
@@ -1042,19 +1039,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Philosophy</span>
-							<h2 class="title title--full">Ignorance is Bliss</h2>
+							<h2 class="title title--full">Ông Diệu Châu</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/8.png" alt="author08">
-								<span class="meta__author">Matthew Walters</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Ong-Dieu-Chau.jpg" alt="Ong-Dieu-Chau">
+								<span class="meta__author">Ông Diệu Châu</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010013</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 29/7/1994</span>
 							</div>
-							<p>In contrast to this, our discussion readily shows that the double meaning in question belonged to the word taboo from the very beginning and that it serves to designate a definite ambivalence as well as everything which has come into existence on the basis of this ambivalence. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Ong-Dieu-Chau").click(function() {
+											$(".stories").load("ajax/Ong-Dieu-Chau.html");
 										});
 									});
 								</script>
@@ -1062,19 +1058,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Morality &amp; History</span>
-							<h2 class="title title--full">Looking Through a Telescope</h2>
+							<h2 class="title title--full">Lý Quốc Cường</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/1.png" alt="author01">
-								<span class="meta__author">Carol Freeman</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Ly-Quoc-Cuong.jpg" alt="Ly-Quoc-Cuong">
+								<span class="meta__author">Lý Quốc Cường</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010016</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 21/11/1993</span>
 							</div>
-							<p>Primitive man is known to us by the stages of development through which he has passed: that is, through the inanimate monuments and implements which he has left behind for us, through our knowledge of his art, his religion and his attitude towards life, which we have received either directly or through the medium of legends, myths and fairy tales; and through the remnants of his ways of thinking that survive in our own manners and customs. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Ly-Quoc-Cuong").click(function() {
+											$(".stories").load("ajax/Ly-Quoc-Cuong.html");
 										});
 									});
 								</script>
@@ -1082,19 +1077,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Philosophy</span>
-							<h2 class="title title--full">Life Ends. Period.</h2>
+							<h2 class="title title--full">Trần Huy Đức</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/2.png" alt="author02">
-								<span class="meta__author">Christian Belverde</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Huy-Duc.jpg" alt="Tran-Huy-Duc">
+								<span class="meta__author">Trần Huy Đức</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010020</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Huy-Duc").click(function() {
+											$(".stories").load("ajax/Tran-Huy-Duc.html");
 										});
 									});
 								</script>
@@ -1102,19 +1096,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Society</span>
-							<h2 class="title title--full">The Hunger of a Teenager</h2>
+							<h2 class="title title--full">Nguyễn Thị Thùy Dung</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/3.png" alt="author03">
-								<span class="meta__author">Carol Freeman</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Thi-Thuy-Dung.jpg" alt="Nguyen-Thi-Thuy-Dung">
+								<span class="meta__author">Nguyễn Thị Thùy Dung</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010021</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Conscience is the inner perception of objections to definite wish impulses that exist in us; but the emphasis is put upon the fact that this rejection does not have to depend on anything else, that it is sure of itself. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Thuy-Dung").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Thuy-Dung.html");
 										});
 									});
 								</script>
@@ -1122,19 +1115,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Mary Giah</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Mary-Giah.jpg" alt="Mary-Giah">
+								<span class="meta__author">Mary Giah</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010022</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/05/1993</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Mary-Giah").click(function() {
+											$(".stories").load("ajax/Mary-Giah.html");
 										});
 									});
 								</script>
@@ -1142,19 +1134,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Stories for humans</span>
-							<h2 class="title title--full">On Humans &amp; other Beings</h2>
+							<h2 class="title title--full">Tạ Thị Giang</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/1.png" alt="author01">
-								<span class="meta__author">Matthew Walters</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span>
+								<img class="meta__avatar" src="lib/images/Ta-Thi-Giang.jpg" alt="Ta-Thi-Giang">
+								<span class="meta__author">Tạ Thị Giang</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010023</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/02/1994</span>
 							</div>
-							<p>I am fully aware of the shortcomings in these essays. I shall not touch upon those which are characteristic of first efforts at investigation. The others, however, demand a word of explanation.</p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Ta-Thi-Giang").click(function() {
+											$(".stories").load("ajax/Ta-Thi-Giang.html");
 										});
 									});
 								</script>
@@ -1162,19 +1153,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Love &amp; Hate</span>
-							<h2 class="title title--full">The Things we Lost in the Fire</h2>
+							<h2 class="title title--full">Nguyễn Thị Hà</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/2.png" alt="author02">
-								<span class="meta__author">Christian Belverde</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 7 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 5 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Nguyen-Thi-Ha">
+								<span class="meta__author">Nguyễn Thị Hà</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010025</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 20/4/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Ha").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Ha.html");
 										});
 									});
 								</script>
@@ -1182,19 +1172,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Nutrition</span>
-							<h2 class="title title--full">What Goes Around Comes Around</h2>
+							<h2 class="title title--full">Lê Thị Yến Hằng</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/3.png" alt="author03">
-								<span class="meta__author">Carol Freeman</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Le-Thi-Yen-Hang.jpg" alt="Le-Thi-Yen-Hang">
+								<span class="meta__author">Lê Thị Yến Hằng</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010028</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 17/04/1994</span>
 							</div>
-							<p>Primitive man is known to us by the stages of development through which he has passed: that is, through the inanimate monuments and implements which he has left behind for us, through our knowledge of his art, his religion and his attitude towards life, which we have received either directly or through the medium of legends, myths and fairy tales; and through the remnants of his ways of thinking that survive in our own manners and customs. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Le-Thi-Yen-Hang").click(function() {
+											$(".stories").load("ajax/Le-Thi-Yen-Hang.html");
 										});
 									});
 								</script>
@@ -1202,19 +1191,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Life &amp; Death</span>
-							<h2 class="title title--full">Hope for Amy Walters</h2>
+							<h2 class="title title--full">Nguyễn Thị Thu Hằng</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Thi-Thu-Hang.jpg" alt="Nguyen-Thi-Thu-Hang">
+								<span class="meta__author">Nguyễn Thị Thu Hằng</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 12534010100290</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 12/09/1994</span>
 							</div>
-							<p>In contrast to this, our discussion readily shows that the double meaning in question belonged to the word taboo from the very beginning and that it serves to designate a definite ambivalence as well as everything which has come into existence on the basis of this ambivalence. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Thu-Hang").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Thu-Hang.html");
 										});
 									});
 								</script>
@@ -1222,19 +1210,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Nature vs. Nurture</span>
-							<h2 class="title title--full">My Father told me...</h2>
+							<h2 class="title title--full">Trần Ngọc Hằng</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/5.png" alt="author05">
-								<span class="meta__author">Leila Nastafi</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Ngoc-Hang.jpg" alt="Tran-Ngoc-Hang">
+								<span class="meta__author">Trần Ngọc Hằng</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010030</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 01/07/1991</span>
 							</div>
-							<p>Conscience is the inner perception of objections to definite wish impulses that exist in us; but the emphasis is put upon the fact that this rejection does not have to depend on anything else, that it is sure of itself. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Ngoc-Hang").click(function() {
+											$(".stories").load("ajax/Tran-Ngoc-Hang.html");
 										});
 									});
 								</script>
@@ -1242,19 +1229,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Neuroscience</span>
-							<h2 class="title title--full">What Happens in the Brain?</h2>
+							<h2 class="title title--full">Lê Thị Thu Hiền</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/6.png" alt="author06">
-								<span class="meta__author">William Green</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Le-Thi-Thu-Hien.jpg" alt="Le-Thi-Thu-Hien">
+								<span class="meta__author">Lê Thị Thu Hiền</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010032</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/06/1994</span>
 							</div>
-							<p>I am fully aware of the shortcomings in these essays. I shall not touch upon those which are characteristic of first efforts at investigation. The others, however, demand a word of explanation.</p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Le-Thi-Thu-Hien").click(function() {
+											$(".stories").load("ajax/Le-Thi-Thu-Hien.html");
 										});
 									});
 								</script>
@@ -1262,19 +1248,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Food Ethics</span>
-							<h2 class="title title--full">Tasty Labrador Bacon</h2>
+							<h2 class="title title--full">Nguyễn Thị Thu Hiền<</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/7.png" alt="author07">
-								<span class="meta__author">Peter M. Schuster</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Thi-Thu-Hien.jpg" alt="Nguyen-Thi-Thu-Hien">
+								<span class="meta__author">Nguyễn Thị Thu Hiền<</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010033</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 22/02/1994</span>
 							</div>
-							<p>Conscience is the inner perception of objections to definite wish impulses that exist in us; but the emphasis is put upon the fact that this rejection does not have to depend on anything else, that it is sure of itself. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Thu-Hien").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Thu-Hien.html");
 										});
 									});
 								</script>
@@ -1282,19 +1267,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Philosophy</span>
-							<h2 class="title title--full">Ignorance is Bliss</h2>
+							<h2 class="title title--full">Trần Ngọc Hồng</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/8.png" alt="author08">
-								<span class="meta__author">Matthew Walters</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Tran-Ngoc-Hong">
+								<span class="meta__author">Trần Ngọc Hồng</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010038</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 30/05/1994</span>
 							</div>
-							<p>In contrast to this, our discussion readily shows that the double meaning in question belonged to the word taboo from the very beginning and that it serves to designate a definite ambivalence as well as everything which has come into existence on the basis of this ambivalence. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Ngoc-Hong").click(function() {
+											$(".stories").load("ajax/Tran-Ngoc-Hong.html");
 										});
 									});
 								</script>
@@ -1302,19 +1286,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Morality &amp; History</span>
-							<h2 class="title title--full">Looking Through a Telescope</h2>
+							<h2 class="title title--full">Nguyễn Ngọc Hưng</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/1.png" alt="author01">
-								<span class="meta__author">Carol Freeman</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Ngoc-Hung.jpg" alt="Nguyen-Ngoc-Hung">
+								<span class="meta__author">Nguyễn Ngọc Hưng</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010039</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 05/09/1994</span>
 							</div>
-							<p>Primitive man is known to us by the stages of development through which he has passed: that is, through the inanimate monuments and implements which he has left behind for us, through our knowledge of his art, his religion and his attitude towards life, which we have received either directly or through the medium of legends, myths and fairy tales; and through the remnants of his ways of thinking that survive in our own manners and customs. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Ngoc-Hung").click(function() {
+											$(".stories").load("ajax/Nguyen-Ngoc-Hung.html");
 										});
 									});
 								</script>
@@ -1322,19 +1305,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Philosophy</span>
-							<h2 class="title title--full">Life Ends. Period.</h2>
+							<h2 class="title title--full">Trần Thị Ngọc Huyền</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/2.png" alt="author02">
-								<span class="meta__author">Christian Belverde</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Thi-Ngoc-Huyen.jpg" alt="Tran-Thi-Ngoc-Huyen">
+								<span class="meta__author">Trần Thị Ngọc Huyền</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010042</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 03/02/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Thi-Ngoc-Huyen").click(function() {
+											$(".stories").load("ajax/Tran-Thi-Ngoc-Huyen.html");
 										});
 									});
 								</script>
@@ -1342,19 +1324,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Society</span>
-							<h2 class="title title--full">The Hunger of a Teenager</h2>
+							<h2 class="title title--full">Lê Diệp Minh Kha</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/3.png" alt="author03">
-								<span class="meta__author">Carol Freeman</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Le-Diep-Minh-Kha.jpg" alt="Le-Diep-Minh-Kha">
+								<span class="meta__author">Lê Diệp Minh Kha</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010043</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 10/03/1994</span>
 							</div>
-							<p>Conscience is the inner perception of objections to definite wish impulses that exist in us; but the emphasis is put upon the fact that this rejection does not have to depend on anything else, that it is sure of itself. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Le-Diep-Minh-Kha").click(function() {
+											$(".stories").load("ajax/Le-Diep-Minh-Kha.html");
 										});
 									});
 								</script>
@@ -1362,19 +1343,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Bùi Duy Khánh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Bui-Duy-Khanh.jpg" alt="Bui-Duy-Khanh">
+								<span class="meta__author">Bùi Duy Khánh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010045</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 29/03/1992</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Bui-Duy-Khanh").click(function() {
+											$(".stories").load("ajax/Bui-Duy-Khanh.html");
 										});
 									});
 								</script>
@@ -1382,19 +1362,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Chế Quang Khánh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Che-Quang-Khanh.jpg" alt="Che-Quang-Khanh">
+								<span class="meta__author">Chế Quang Khánh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010046</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Che-Quang-Khanh").click(function() {
+											$(".stories").load("ajax/Che-Quang-Khanh.html");
 										});
 									});
 								</script>
@@ -1402,19 +1381,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Trần Thúy Kiều</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Thuy-Kieu.jpg" alt="Tran-Thuy-Kieu">
+								<span class="meta__author">Trần Thúy Kiều</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010047</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 29/03/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Thuy-Kieu").click(function() {
+											$(".stories").load("ajax/Tran-Thuy-Kieu.html");
 										});
 									});
 								</script>
@@ -1422,19 +1400,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Ngọc Hồng Lam</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Ngoc-Hong-Lam.jpg" alt="Nguyen-Ngoc-Hong-Lam">
+								<span class="meta__author">Nguyễn Ngọc Hồng Lam</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010049</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/08/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Ngoc-Hong-Lam").click(function() {
+											$(".stories").load("ajax/Nguyen-Ngoc-Hong-Lam.html");
 										});
 									});
 								</script>
@@ -1442,19 +1419,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Chu Thị Lành</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Chu-Thi-Lanh.jpg" alt="Chu-Thi-Lanh">
+								<span class="meta__author">Chu Thị Lành</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010050</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 25/02/1993</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Chu-Thi-Lanh").click(function() {
+											$(".stories").load("ajax/Chu-Thi-Lanh.html");
 										});
 									});
 								</script>
@@ -1462,19 +1438,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Điền Thị Ngọc Linh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/SweetAngel.jpg" alt="SweetAngel">
+								<span class="meta__author">Điền Thị Ngọc Linh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010052</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 31/05/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Sweet-Angel").click(function() {
+											$(".stories").load("ajax/Sweet-Angel.html");
 										});
 									});
 								</script>
@@ -1482,19 +1457,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Thị Mỹ Ly</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Thi-My-Ly.jpg" alt="Nguyen-Thi-My-Ly">
+								<span class="meta__author">Nguyễn Thị Mỹ Ly</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010057</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 02/02/1993</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-My-Ly").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-My-Ly.html");
 										});
 									});
 								</script>
@@ -1502,19 +1476,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Thái Kim Ngọc</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Thai-Kim-Ngoc.jpg" alt="Thai-Kim-Ngoc">
+								<span class="meta__author">Thái Kim Ngọc</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010063</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 05/02/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Thai-Kim-Ngoc").click(function() {
+											$(".stories").load("ajax/Thai-Kim-Ngoc.html");
 										});
 									});
 								</script>
@@ -1522,19 +1495,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Phạm Ngọc Nguyên</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Pham-Ngoc-Nguyen">
+								<span class="meta__author">Phạm Ngọc Nguyên</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010067</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Pham-Ngoc-Nguyen").click(function() {
+											$(".stories").load("ajax/Pham-Ngoc-Nguyen.html");
 										});
 									});
 								</script>
@@ -1542,19 +1514,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Tạ Văn Nhật</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Ta-Van-Nhat.jpg" alt="Ta-Van-Nhat">
+								<span class="meta__author">Tạ Văn Nhật</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010069</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 26/12/1992</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Ta-Van-Nhat").click(function() {
+											$(".stories").load("ajax/Ta-Van-Nhat.html");
 										});
 									});
 								</script>
@@ -1562,19 +1533,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Bùi Ngọc Bích Nhi</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Bui-Ngoc-Bich-Nhi.jpg" alt="Bui-Ngoc-Bich-Nhi">
+								<span class="meta__author">Bùi Ngọc Bích Nhi</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010070</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 19/07/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Bui-Ngoc-Bich-Nhi").click(function() {
+											$(".stories").load("ajax/Bui-Ngoc-Bich-Nhi.html");
 										});
 									});
 								</script>
@@ -1582,19 +1552,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Trần Thụy Uyển Nhi</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Thuy-Uyen-Nhi.jpg" alt="Tran-Thuy-Uyen-Nhi">
+								<span class="meta__author">Trần Thụy Uyển Nhi</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010074</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 14/05/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Thuy-Uyen-Nhi").click(function() {
+											$(".stories").load("ajax/Tran-Thuy-Uyen-Nhi.html");
 										});
 									});
 								</script>
@@ -1602,19 +1571,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Minh Đình Như</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Minh-Dinh-Nhu.jpg" alt="Nguyen-Minh-Dinh-Nhu">
+								<span class="meta__author">Nguyễn Minh Đình Như</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010077</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 27/02/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Minh-Dinh-Nhu").click(function() {
+											$(".stories").load("ajax/Nguyen-Minh-Dinh-Nhu.html");
 										});
 									});
 								</script>
@@ -1622,19 +1590,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Phan Thị Quỳnh Như</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Phan-Thi-Quynh-Nhu.jpg" alt="Phan-Thi-Quynh-Nhu">
+								<span class="meta__author">Phan Thị Quỳnh Như</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010078</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 14/04/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Phan-Thi-Quynh-Nhu").click(function() {
+											$(".stories").load("ajax/Phan-Thi-Quynh-Nhu.html");
 										});
 									});
 								</script>
@@ -1642,19 +1609,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Phan Thị Hồng Nhung</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Phan-Thi-Hong-Nhung">
+								<span class="meta__author">Phan Thị Hồng Nhung</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010079</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/08/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Phan-Thi-Hong-Nhung").click(function() {
+											$(".stories").load("ajax/Phan-Thi-Hong-Nhung.html");
 										});
 									});
 								</script>
@@ -1662,19 +1628,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Lý Minh Nhựt</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Ly-Minh-Nhut.jpg" alt="Ly-Minh-Nhut">
+								<span class="meta__author">Lý Minh Nhựt</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010080</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 27/02/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Ly-Minh-Nhut").click(function() {
+											$(".stories").load("ajax/Ly-Minh-Nhut.html");
 										});
 									});
 								</script>
@@ -1682,19 +1647,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Trần Thị Như Quỳnh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Thi-Nhu-Quynh.jpg" alt="Tran-Thi-Nhu-Quynh">
+								<span class="meta__author">Trần Thị Như Quỳnh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010088</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/09/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Thi-Nhu-Quynh").click(function() {
+											$(".stories").load("ajax/Tran-Thi-Nhu-Quynh.html");
 										});
 									});
 								</script>
@@ -1702,19 +1666,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Bùi Nhật Tân</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Bui-Nhat-Tan.jpg" alt="Bui-Nhat-Tan">
+								<span class="meta__author">Bùi Nhật Tân</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010091</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 05/12/1992</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Bui-Nhat-Tan").click(function() {
+											$(".stories").load("ajax/Bui-Nhat-Tan.html");
 										});
 									});
 								</script>
@@ -1722,19 +1685,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Trần Thị Hồng Thắm</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Thi-Hong-Tham.jpg" alt="Tran-Thi-Hong-Tham">
+								<span class="meta__author">Trần Thị Hồng Thắm</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010092</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 17/04/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Thi-Hong-Tham").click(function() {
+											$(".stories").load("ajax/Tran-Thi-Hong-Tham.html");
 										});
 									});
 								</script>
@@ -1742,19 +1704,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Phan Việt Thắng</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Phan-Viet-Thang.jpg" alt="Phan-Viet-Thang">
+								<span class="meta__author">Phan Việt Thắng</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010093</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Phan-Viet-Thang").click(function() {
+											$(".stories").load("ajax/Phan-Viet-Thang.html");
 										});
 									});
 								</script>
@@ -1762,19 +1723,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Trần Thị Kim Thanh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Thi-Kim-Thanh.jpg" alt="Tran-Thi-Kim-Thanh">
+								<span class="meta__author">Trần Thị Kim Thanh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010095</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Thi-Kim-Thanh").click(function() {
+											$(".stories").load("ajax/Tran-Thi-Kim-Thanh.html");
 										});
 									});
 								</script>
@@ -1782,19 +1742,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Dương Thị Thảo</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Duong-Thi-Thao.jpg" alt="Duong-Thi-Thao">
+								<span class="meta__author">Dương Thị Thảo</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010097</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/01/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Duong-Thi-Thao").click(function() {
+											$(".stories").load("ajax/Duong-Thi-Thao.html");
 										});
 									});
 								</script>
@@ -1802,19 +1761,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Thị Phương Thảo</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Nguyen-Thi-Phuong-Thao">
+								<span class="meta__author">Nguyễn Thị Phương Thảo</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010098</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 20/03/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Phuong-Thao").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Phuong-Thao.html");
 										});
 									});
 								</script>
@@ -1822,19 +1780,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Thị Thanh Thảo</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Nguyen-Thi-Thanh-Thao">
+								<span class="meta__author">Nguyễn Thị Thanh Thảo</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010099</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 14/09/1992</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Thanh-Thao99").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Thanh-Thao99.html");
 										});
 									});
 								</script>
@@ -1842,19 +1799,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Thị Thanh Thảo</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Nguyen-Thi-Thanh-Thao">
+								<span class="meta__author">Nguyễn Thị Thanh Thảo</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010100</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 25/01/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Thanh-Thao100").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Thanh-Thao100.html");
 										});
 									});
 								</script>
@@ -1862,19 +1818,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Bùi Quốc Thịnh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Bui-Quoc-Thinh.jpg" alt="Bui-Quoc-Thinh">
+								<span class="meta__author">Bùi Quốc Thịnh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010103</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/10/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Bui-Quoc-Thinh").click(function() {
+											$(".stories").load("ajax/Bui-Quoc-Thinh.html");
 										});
 									});
 								</script>
@@ -1882,19 +1837,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Võ Thị Hồng Thơm</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Vo-Thi-Hong-Thom.jpg" alt="Vo-Thi-Hong-Thom">
+								<span class="meta__author">Võ Thị Hồng Thơm</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010105</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 23/07/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Vo-Thi-Hong-Thom").click(function() {
+											$(".stories").load("ajax/Vo-Thi-Hong-Thom.html");
 										});
 									});
 								</script>
@@ -1902,19 +1856,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Lê Hữu Thông</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Le-Huu-Thong.jpg" alt="Le-Huu-Thong">
+								<span class="meta__author">Lê Hữu Thông</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010106</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 30/10/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Le-Huu-Thong").click(function() {
+											$(".stories").load("ajax/Le-Huu-Thong.html");
 										});
 									});
 								</script>
@@ -1922,19 +1875,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Thị Thanh Thuận</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Thi-Thanh-Thuan.jpg" alt="Nguyen-Thi-Thanh-Thuan">
+								<span class="meta__author">Nguyễn Thị Thanh Thuận</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010107</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 25/08/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Thanh-Thuan").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Thanh-Thuan.html");
 										});
 									});
 								</script>
@@ -1942,19 +1894,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Phạm Thị Thương</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Pham-Thi-Thuong.jpg" alt="Pham-Thi-Thuong">
+								<span class="meta__author">Phạm Thị Thương</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010109</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 18/11/1993</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Pham-Thi-Thuong").click(function() {
+											$(".stories").load("ajax/Pham-Thi-Thuong.html");
 										});
 									});
 								</script>
@@ -1962,19 +1913,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Lệ Thủy</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Le-Thuy.jpg" alt="Nguyen-Le-Thuy">
+								<span class="meta__author">Nguyễn Lệ Thủy</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010111</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 17/03/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Le-Thuy").click(function() {
+											$(".stories").load("ajax/Nguyen-Le-Thuy.html");
 										});
 									});
 								</script>
@@ -1982,19 +1932,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Bùi Lý Thuỷ Tiên</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Bui-Ly-Thuy-Tien.jpg" alt="Bui-Ly-Thuy-Tien">
+								<span class="meta__author">Bùi Lý Thuỷ Tiên</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010113</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 09/07/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Bui-Ly-Thuy-Tien").click(function() {
+											$(".stories").load("ajax/Bui-Ly-Thuy-Tien.html");
 										});
 									});
 								</script>
@@ -2002,19 +1951,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Thị Cẩm Tiên</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Nguyen-Thi-Cam-Tien">
+								<span class="meta__author">Nguyễn Thị Cẩm Tiên</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010114</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 12/07/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thi-Cam-Tien").click(function() {
+											$(".stories").load("ajax/Nguyen-Thi-Cam-Tien.html");
 										});
 									});
 								</script>
@@ -2022,19 +1970,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Võ Thị Tiết</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Vo-Thi-Tiet.jpg" alt="Vo-Thi-Tiet">
+								<span class="meta__author">Võ Thị Tiết</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010115</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 04/06/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Vo-Thi-Tiet").click(function() {
+											$(".stories").load("ajax/Vo-Thi-Tiet.html");
 										});
 									});
 								</script>
@@ -2042,19 +1989,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Đặng Thương Tín</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Dang-Thuong-Tin.jpg" alt="Dang-Thuong-Tin">
+								<span class="meta__author">Đặng Thương Tín</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010116</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/01/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Dang-Thuong-Tin").click(function() {
+											$(".stories").load("ajax/Dang-Thuong-Tin.html");
 										});
 									});
 								</script>
@@ -2062,19 +2008,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Trung Tín</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/OngTrum.jpg" alt="Ong-Trum">
+								<span class="meta__author">Nguyễn Trung Tín</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010117</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 01/06/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Ong-Trum").click(function() {
+											$(".stories").load("ajax/Ong-Trum.html");
 										});
 									});
 								</script>
@@ -2082,19 +2027,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Ngọc Đoan Trâm</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Nguyen-Ngoc-Doan-Tram">
+								<span class="meta__author">Nguyễn Ngọc Đoan Trâm</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010119</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 28/10/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Ngoc-Doan-Tram").click(function() {
+											$(".stories").load("ajax/Nguyen-Ngoc-Doan-Tram.html");
 										});
 									});
 								</script>
@@ -2102,19 +2046,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Trần Thị Bích Trâm</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Thi-Bich-Tram.jpg" alt="Tran-Thi-Bich-Tram">
+								<span class="meta__author">Trần Thị Bích Trâm</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010120</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 15/11/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Thi-Bich-Tram").click(function() {
+											$(".stories").load("ajax/Tran-Thi-Bich-Tram.html");
 										});
 									});
 								</script>
@@ -2122,19 +2065,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Đỗ Thị Thu Trang</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Do-Thi-Thu-Trang.jpg" alt="Do-Thi-Thu-Trang">
+								<span class="meta__author">Đỗ Thị Thu Trang</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010122</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 03/07/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Do-Thi-Thu-Trang").click(function() {
+											$(".stories").load("ajax/Do-Thi-Thu-Trang.html");
 										});
 									});
 								</script>
@@ -2142,19 +2084,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Thanh Thuỳ Trang</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Nguyen-Thanh-Thuy-Trang">
+								<span class="meta__author">Nguyễn Thanh Thuỳ Trang</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010124</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 04/08/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Thanh-Thuy-Trang").click(function() {
+											$(".stories").load("ajax/Nguyen-Thanh-Thuy-Trang.html");
 										});
 									});
 								</script>
@@ -2162,19 +2103,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Phạm Lê Thùy Trang</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Pham-Le-Thuy-Trang">
 								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Pham-Le-Thuy-Trang").click(function() {
+											$(".stories").load("ajax/Pham-Le-Thuy-Trang.html");
 										});
 									});
 								</script>
@@ -2182,19 +2122,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Võ Thị Thuỳ Trang</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Vo-Thi-Thuy-Trang">
+								<span class="meta__author">Võ Thị Thuỳ Trang</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010127</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 06/02/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Vo-Thi-Thuy-Trang").click(function() {
+											$(".stories").load("ajax/Vo-Thi-Thuy-Trang.html");
 										});
 									});
 								</script>
@@ -2202,19 +2141,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Minh Trí</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Minh-Tri.jpg" alt="Nguyen-Minh-Tri">
+								<span class="meta__author">Nguyễn Minh Trí</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010128</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 16/12/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Minh-Tri").click(function() {
+											$(".stories").load("ajax/Nguyen-Minh-Tri.html");
 										});
 									});
 								</script>
@@ -2222,19 +2160,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nhân Thị Thùy Trinh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Nham-Thi-Thuy-Trinh">
+								<span class="meta__author">Nhân Thị Thùy Trinh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nham-Thi-Thuy-Trinh").click(function() {
+											$(".stories").load("ajax/Nham-Thi-Thuy-Trinh.html");
 										});
 									});
 								</script>
@@ -2242,19 +2179,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Phương Ngọc Trung</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Phuong-Ngoc-Trung.jpg" alt="Phuong-Ngoc-Trung">
+								<span class="meta__author">Phương Ngọc Trung</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Phuong-Ngoc-Trung").click(function() {
+											$(".stories").load("ajax/Phuong-Ngoc-Trung.html");
 										});
 									});
 								</script>
@@ -2262,19 +2198,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Hoàng Cẩm Tú</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Hoang-Cam-Tu.jpg" alt="Hoang-Cam-Tu">
+								<span class="meta__author">Hoàng Cẩm Tú</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010135</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 19/09/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Hoang-Cam-Tu").click(function() {
+											$(".stories").load("ajax/Hoang-Cam-Tu.html");
 										});
 									});
 								</script>
@@ -2282,19 +2217,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Sĩ Tú</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Si-Tu.jpg" alt="Nguyen-Si-Tu">
+								<span class="meta__author">Nguyễn Sĩ Tú</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010136</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 27/03/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Si-Tu").click(function() {
+											$(".stories").load("ajax/Nguyen-Si-Tu.html");
 										});
 									});
 								</script>
@@ -2302,19 +2236,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Lê Thị Sơn Tuyền</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Le-Thi-Son-Tuyen.jpg" alt="Le-Thi-Son-Tuyen">
+								<span class="meta__author">Lê Thị Sơn Tuyền</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010138</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 25/03/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Le-Thi-Son-Tuyen").click(function() {
+											$(".stories").load("ajax/Le-Thi-Son-Tuyen.html");
 										});
 									});
 								</script>
@@ -2322,19 +2255,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Tường Vi</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Tuong-Vi.jpg" alt="Nguyen-Tuong-Vi">
+								<span class="meta__author">Nguyễn Tường Vi</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010141</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 21/06/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Tuong-Vi").click(function() {
+											$(".stories").load("ajax/Nguyen-Tuong-Vi.html");
 										});
 									});
 								</script>
@@ -2342,19 +2274,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Tất Viễn</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Tat-Vien.jpg" alt="Nguyen-Tat-Vien">
+								<span class="meta__author">Nguyễn Tất Viễn</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010142</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 28/03/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Tat-Vien").click(function() {
+											$(".stories").load("ajax/Nguyen-Tat-Vien.html");
 										});
 									});
 								</script>
@@ -2362,19 +2293,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Ngô Thế Vượng</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Ngo-The-Vuong.jpg" alt="Ngo-The-Vuong">
+								<span class="meta__author">Ngô Thế Vượng</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010145</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 21/05/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Ngo-The-Vuong").click(function() {
+											$(".stories").load("ajax/Ngo-The-Vuong.html");
 										});
 									});
 								</script>
@@ -2382,19 +2312,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Trần Thị Khánh Xuân</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Tran-Khanh-Xuan.jpg" alt="Tran-Khanh-Xuan">
+								<span class="meta__author">Trần Thị Khánh Xuân</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 1253401010146</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 18/12/1994</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Tran-Khanh-Xuan").click(function() {
+											$(".stories").load("ajax/Tran-Khanh-Xuan.html");
 										});
 									});
 								</script>
@@ -2402,19 +2331,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Đinh Nhật Nam</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Dinh-Nhat-Nam.jpg" alt="Dinh-Nhat-Nam">
+								<span class="meta__author">Đinh Nhật Nam</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Dinh-Nhat-Nam").click(function() {
+											$(".stories").load("ajax/Dinh-Nhat-Nam.html");
 										});
 									});
 								</script>
@@ -2422,19 +2350,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Vũ Quỳnh Như</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Vu-Quynh-Nhu">
+								<span class="meta__author">Vũ Quỳnh Như</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Vu-Quynh-Nhu").click(function() {
+											$(".stories").load("ajax/Vu-Quynh-Nhu.html");
 										});
 									});
 								</script>
@@ -2442,19 +2369,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Ái Duyên</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Ai-Duyen.jpg" alt="Nguyen-Ai-Duyen">
+								<span class="meta__author">Nguyễn Ái Duyên</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Ai-Duyen").click(function() {
+											$(".stories").load("ajax/Nguyen-Ai-Duyen.html");
 										});
 									});
 								</script>
@@ -2462,19 +2388,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Bùi Ngọc Thanh Thảo</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Bui-Ngoc-Thanh-Thao.jpg" alt="Bui-Ngoc-Thanh-Thao">
+								<span class="meta__author">Bùi Ngọc Thanh Thảo</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Bui-Ngoc-Thanh-Thao").click(function() {
+											$(".stories").load("ajax/Bui-Ngoc-Thanh-Thao.html");
 										});
 									});
 								</script>
@@ -2482,19 +2407,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Nguyễn Công Danh</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Nguyen-Cong-Danh.jpg" alt="Nguyen-Cong-Danh">
+								<span class="meta__author">Nguyễn Công Danh</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Nguyen-Cong-Danh").click(function() {
+											$(".stories").load("ajax/Nguyen-Cong-Danh.html");
 										});
 									});
 								</script>
@@ -2502,19 +2426,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Thái Lê Thanh Thảo</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/test.jpg" alt="Thai-Le-Thanh-Thao">
+								<span class="meta__author">Thái Lê Thanh Thảo</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Thai-Le-Thanh-Thao").click(function() {
+											$(".stories").load("ajax/Thai-Le-Thanh-Thao.html");
 										});
 									});
 								</script>
@@ -2522,19 +2445,18 @@
 						</article>
 						<article class="content__item">
 							<span class="category category--full">Mental Health</span>
-							<h2 class="title title--full">Disorders are the New Order</h2>
+							<h2 class="title title--full">Lương Ngọc Châu</h2>
 							<div class="meta meta--full">
-								<img class="meta__avatar" src="lib/images/4.png" alt="author04">
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+								<img class="meta__avatar" src="lib/images/Luong-Ngoc-Chau.jpg" alt="Luong-Ngoc-Chau">
+								<span class="meta__author">Lương Ngọc Châu</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> ...</span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> ...</span>
 							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
 							<div class="stories">
 								<script type="text/javascript">
 									$(document).ready(function() {
-										$("#Vo-Hoang-Van-Anh").click(function() {
-											$(".stories").load("ajax/test.html");
+										$("#Luong-Ngoc-Chau").click(function() {
+											$(".stories").load("ajax/Luong-Ngoc-Chau.html");
 										});
 									});
 								</script>
@@ -2547,8 +2469,33 @@
 		</div><!-- /container -->
 
 
-
+		<script src="js/search.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+			$('.grid__item h2').each(function(){
+			$(this).attr('data-search-term', $(this).text().toLowerCase());
+			});
+
+			$('.live-search-box').on('keyup', function(){
+
+			var searchTerm = $(this).val().toLowerCase();
+
+			    $('.grid__item h2').each(function(){
+
+			        if ($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) {
+			            $(this).parent().closest("a").show();
+			        } else {
+			            $(this).parent().closest("a").hide();
+			        }
+
+			    });
+
+			});
+
+			});
+		</script>
 	</body>
 </html>
