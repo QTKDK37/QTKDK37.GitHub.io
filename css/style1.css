@@ -550,6 +550,12 @@ input:focus {
   visibility: visible;
 }
 
+.embed iframe {
+  height: 1000px;
+  width: 100%;
+
+}
+
 /* scroll helper wrap */
 .scroll-wrap {
   position: absolute;
