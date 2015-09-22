@@ -1,0 +1,70 @@
+.body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+			
+.carousel-inner {
+max-height: 600px !important;
+}
+			
+.carousel-inner img {
+	margin: auto;
+}
+			
+.header {
+		
+}
+			
+.main {
+	padding: 50px;
+	color: #3F51B5;
+	text-align: center;
+}
+
+.main h1 {
+	font-weight: bold;
+}
+
+.main h3 {
+	color: #9C27B0;
+}
+
+.content {
+	background-color: #512DA8;
+	color: white;
+}
+
+.content .row {
+	padding: 80px;
+	margin: 20px 0px;
+}
+
+.content .row .col-md-8 {
+	color: #9C27B0;
+}
+
+.content h2 {
+	padding: 20px;
+}
+
+.support {
+	font-size: 40px;
+	padding: 80px;
+	color: #9C27B0;
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	padding: 20px;
+}
+
+.footer p i.red {
+	color: red;
+}
