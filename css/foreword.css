@@ -13,9 +13,8 @@ body {
 
 .content {
 	background-color: #9C27B0;
-	padding: 100px 0px 50px 0px;
+	padding: 100px;
 	min-height: 900px;
-	min-width: 1024px;
 	color: white;
 }
 
